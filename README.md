@@ -23,8 +23,8 @@ O projeto inclui:
 
 > _Obs: Criar arquivo ".env" e configurar variáveis de ambiente (DATABASE e MAIL)
 
-- cp .env.example .env 
-
+ 
+- `cp .env.example .env`
 - `php artisan key:generate` - criar chave da aplicação
 
 - `php artisan migrate`
@@ -51,7 +51,6 @@ O Serviço rodará na porta 8080: localhost:8080/
 #### Frontend
 
 ```
-$ vue init webpack frontend //CRIAR PROJETO FRONTEND
 $ npm i -S vue-the-mask //BIBLIOTECA DE INPUT MASK
 $ npm i axios //PARA TRABALHAR COM A API BACKEND
 $ npm i vue-notification //BIBLIOTECA DE NOTIFICAÇÕES JS
