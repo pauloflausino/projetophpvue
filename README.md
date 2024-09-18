@@ -12,8 +12,8 @@ O projeto inclui:
 
 ## Baixar, instalar e rodar aplicação:
 
-- `git clone https://github.com/thiagostudier/agendamento-de-reunioes`
-- `cd agendamento-de-reunioes`
+- `git clone https://github.com/pauloflausino/projetophpvue`
+- `cd projetophpvue`
 
 #### Backend
 
