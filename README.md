@@ -66,7 +66,7 @@ $ laravel new backend //CRIAR PROJETO LARAVEL
 $ composer require laravel/passport* 
 $ php artisan passport:install 
 
-//AUTENTICAÇÃO LARAVLE
+//AUTENTICAÇÃO LARAVEL
 $ composer require laravel/ui
 $ php artisan ui vue --auth
 $ npm install
