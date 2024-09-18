@@ -62,15 +62,16 @@ $ npm install --save vue-full-calendar //BIBLIOTECA DO FULLCALENDAR
 
 //INSTALAR BIBLIOTECA DE AUTENTICAÇÃO PASSPORT
 
----
+```
 $ composer require laravel/passport:* 
 $ php artisan passport:install 
+```
 
 //AUTENTICAÇÃO LARAVEL
 
----
+```
 $ composer require laravel/ui:*
 $ php artisan ui vue --auth
 $ npm install
-
+```
 - `php artisan serve`
