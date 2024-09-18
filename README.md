@@ -23,11 +23,13 @@ O projeto inclui:
 
 > _Obs: Criar arquivo ".env" e configurar variáveis de ambiente (DATABASE e MAIL)
 
+- cp .env.example .env 
+
 - `php artisan key:generate` - criar chave da aplicação
 
 - `php artisan migrate`
 - `php artisan db:seed`
-- `php artisan serve`
+
 
 O Serviço rodará na porta 8000: localhost:8000/
 
@@ -58,15 +60,14 @@ $ npm install --save vue-full-calendar //BIBLIOTECA DO FULLCALENDAR
 
 #### Backend
 
-```
-$ composer global require laravel/installer //INSTALAR LARAVEL
-$ laravel new backend //CRIAR PROJETO LARAVEL
 
 //INSTALAR BIBLIOTECA DE AUTENTICAÇÃO PASSPORT
-$ composer require laravel/passport* 
+$ composer require laravel/passport:* 
 $ php artisan passport:install 
 
 //AUTENTICAÇÃO LARAVEL
-$ composer require laravel/ui
+$ composer require laravel/ui:*
 $ php artisan ui vue --auth
 $ npm install
+
+- `php artisan serve`
